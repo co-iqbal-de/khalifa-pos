@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Panduan Install KHALIFA POS</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#f4faf4;color:#1c1c1c;max-width:680px;margin:0 auto;padding:24px 16px 48px}
+.hero{background:#1a2e1a;border-radius:16px;padding:28px 24px;margin-bottom:28px;text-align:center}
+.hero h1{color:#fff;font-size:24px;margin-bottom:6px}
+.hero p{color:#92c292;font-size:14px}
+.step-card{background:#fff;border-radius:14px;padding:20px;margin-bottom:14px;border:1px solid #e8f3e8;box-shadow:0 2px 10px rgba(26,46,26,0.07)}
+.step-num{display:inline-flex;width:32px;height:32px;border-radius:50%;background:#1a2e1a;color:#fff;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin-bottom:12px}
+.step-title{font-size:16px;font-weight:700;color:#1a2e1a;margin-bottom:8px}
+.step-desc{font-size:13px;color:#555;line-height:1.7}
+.step-desc strong{color:#1a2e1a}
+.step-desc code{background:#e8f3e8;color:#2d4a2d;padding:2px 8px;border-radius:5px;font-size:12px}
+.link-btn{display:inline-block;background:#1a2e1a;color:#fff;padding:10px 20px;border-radius:9px;text-decoration:none;font-size:13px;font-weight:600;margin-top:10px}
+.note{background:#fff8e6;border:1px solid #f5d58a;border-radius:10px;padding:13px 16px;font-size:12px;color:#92500a;margin-top:10px}
+.note strong{color:#7a4000}
+.file-list{background:#f4faf4;border-radius:10px;padding:14px;margin-top:12px;font-size:12px;font-family:monospace;color:#2d4a2d;line-height:2}
+.iphone-steps{background:#e8f0fe;border-radius:10px;padding:14px 16px;margin-top:10px;font-size:13px;color:#2c5aa0;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="hero">
+  <h1>📱 Panduan Install KHALIFA POS</h1>
+  <p>Ikuti langkah berikut agar app bisa dipakai seperti aplikasi HP biasa</p>
+</div>
+
+<div class="step-card">
+  <div class="step-num">1</div>
+  <div class="step-title">Buka Netlify Drop di Browser</div>
+  <div class="step-desc">
+    Netlify adalah layanan hosting gratis. Tidak perlu daftar untuk langsung upload.<br><br>
+    <strong>Buka link ini di browser laptop atau HP:</strong>
+    <br>
+    <a class="link-btn" href="https://app.netlify.com/drop" target="_blank">🌐 Buka Netlify Drop</a>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">2</div>
+  <div class="step-title">Siapkan Folder khalifa-pwa</div>
+  <div class="step-desc">
+    Pastikan folder yang sudah didownload berisi file-file berikut:
+    <div class="file-list">
+📁 khalifa-pwa/<br>
+├── index.html<br>
+├── manifest.json<br>
+├── sw.js<br>
+└── 📁 icons/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── icon-72.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── icon-96.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── icon-128.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── icon-144.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── icon-152.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── icon-192.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── icon-384.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── icon-512.png
+    </div>
+    <div class="note"><strong>Penting:</strong> Upload seluruh FOLDER khalifa-pwa, bukan file satu per satu.</div>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">3</div>
+  <div class="step-title">Drag & Drop Folder ke Netlify</div>
+  <div class="step-desc">
+    Di halaman Netlify Drop, <strong>seret folder khalifa-pwa</strong> dan jatuhkan ke area bertuliskan <em>"Drag and drop your site folder here"</em>.<br><br>
+    Tunggu beberapa detik sampai proses upload selesai.<br><br>
+    Netlify akan memberikan URL seperti:<br>
+    <code>https://wonderful-name-123.netlify.app</code>
+    <div class="note"><strong>Simpan URL ini!</strong> Ini adalah link aplikasi KHALIFA POS milik kamu.</div>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">4</div>
+  <div class="step-title">Buka URL di Chrome HP (Android)</div>
+  <div class="step-desc">
+    1. Buka <strong>Chrome</strong> di HP Android<br>
+    2. Ketik URL dari Netlify di address bar<br>
+    3. Tunggu app terbuka sempurna<br>
+    4. Akan muncul banner di bawah layar: <strong>"Install KHALIFA POS"</strong><br>
+    5. Tap tombol <strong>"Install"</strong><br>
+    6. App akan muncul di <strong>home screen</strong> seperti app biasa!<br><br>
+    Atau bisa lewat menu Chrome:<br>
+    <strong>⋮ → "Tambahkan ke layar utama"</strong>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">5</div>
+  <div class="step-title">Install di iPhone (Safari)</div>
+  <div class="step-desc">
+    Khusus iPhone, gunakan Safari (bukan Chrome):
+    <div class="iphone-steps">
+      1. Buka URL di <strong>Safari</strong><br>
+      2. Tap ikon <strong>Share</strong> (kotak panah ke atas) di bawah layar<br>
+      3. Scroll ke bawah, pilih <strong>"Add to Home Screen"</strong><br>
+      4. Tap <strong>"Add"</strong> di pojok kanan atas<br>
+      5. App muncul di home screen dengan icon KHALIFA!
+    </div>
+  </div>
+</div>
+
+<div class="step-card" style="border-color:#c4dfc4;background:#f4faf4">
+  <div class="step-title" style="color:#1a2e1a">✅ Setelah Terinstall</div>
+  <div class="step-desc">
+    <strong>App KHALIFA POS sudah siap dipakai!</strong><br><br>
+    • Buka dari home screen → tampil full screen seperti app asli<br>
+    • Data tersimpan di HP, tidak hilang meski tutup app<br>
+    • Bisa dipakai offline (setelah pertama kali dibuka online)<br>
+    • Bagikan URL ke HP lain agar bisa dipakai bersama<br>
+    • Tidak perlu Play Store atau App Store
+  </div>
+</div>
+
+</body>
+</html>
